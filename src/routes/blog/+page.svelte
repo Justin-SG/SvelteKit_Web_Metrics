@@ -13,6 +13,7 @@
 	function changeIndexBy(changeBy: number) {
 		const expectedIndex = currentArticleIndex + changeBy;
 		if (expectedIndex < 0 || expectedIndex > articles.length - 1) return;
+		displayArticle(expectedIndex);
 	}
 	function displayArticle(index: number) {
 		if (currentArticleIndex === index) return;
@@ -256,11 +257,13 @@
 								</div>
 							{/each}
 							<button
+								on:click={() => changeIndexBy(-1)}
 								class="cursor-pointer absolute top-1/2 w-auto mt-[-22px] p-4 text-white font-bold text-lg"
 							>
 								&#10094;
 							</button>
 							<button
+								on:click={() => changeIndexBy(1)}
 								class="cursor-pointer absolute top-1/2 w-auto mt-[-22px] p-4 text-white font-bold text-lg right-4"
 							>
 								&#10095;
