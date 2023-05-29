@@ -1,14 +1,14 @@
 <script>
-	import Trial_component from './trial_component.svelte';
-	import Faq_component from './faq_component.svelte';
-	import Plans_component from './plans_component.svelte';
-	import Refferals_component from './refferals_component.svelte';
-	import Users_component from './users_component.svelte';
-	import Features_component from './features_component.svelte';
-	import Companies_component from './companies_component.svelte';
-	import Landing_component from './landing_component.svelte';
-	import Header_component from './header_component.svelte';
-	import Footer_component from './footer_component.svelte';
+	import Trial_component from './TrialComponent.svelte';
+	import Faq_component from './FaqComponent.svelte';
+	import Plans_component from './PlansComponent.svelte';
+	import Refferals_component from './RefferalsComponent.svelte';
+	import Users_component from './UsersComponent.svelte';
+	import Features_component from './FeaturesComponent.svelte';
+	import Companies_component from './CompaniesComponent.svelte';
+	import Landing_component from './LandingComponent.svelte';
+	import Header_component from './HeaderComponent.svelte';
+	import Footer_component from './FooterComponent.svelte';
 </script>
 
 <Header_component />
