@@ -10,7 +10,6 @@
 <Header_component />
 
 <main id="content" class="mt-16">
-	<!-- advertisement -->
 	<div class="bg-gray-50 py-4 hidden">
 		<div class="xl:container mx-auto px-3 sm:px-4 xl:px-2">
 			<div class="mx-auto table text-center text-sm">
@@ -22,11 +21,9 @@
 		</div>
 	</div>
 
-	<!-- block news -->
 	<div class="bg-white">
 		<div class="xl:container mx-auto px-3 sm:px-4 xl:px-2">
 			<div class="flex flex-row flex-wrap">
-				<!-- Left -->
 				<div class="flex-shrink max-w-full w-full lg:w-2/3 overflow-hidden">
 					<div class="w-full py-3">
 						<h2 class="text-gray-800 text-2xl font-bold">
@@ -35,7 +32,7 @@
 					</div>
 					<div class="flex flex-row flex-wrap -mx-3">
 						{#each data.posts.slice(0, 6) as post}
-							<PostComponent {post}/>
+							<PostComponent {post} />
 						{/each}
 					</div>
 				</div>
@@ -57,10 +54,7 @@
 		</div>
 	</div>
 
-	<div
-		class="relative bg-gray-50"
-		style="background-image: url('./images/bg.jpg');background-size: cover;background-position: center center;background-attachment: fixed"
-	>
+	<div class="relative bg-gray-50">
 		<div class="bg-black bg-opacity-70">
 			<div class="xl:container mx-auto px-3 sm:px-4 xl:px-2">
 				<div class="flex flex-row flex-wrap">
@@ -88,7 +82,7 @@
 					</div>
 					<div class="flex flex-row flex-wrap -mx-3">
 						{#each data.posts.slice(6, 12) as post}
-							<PostComponent {post}/>
+							<PostComponent {post} />
 						{/each}
 					</div>
 				</div>
@@ -135,9 +129,8 @@
 							</div>
 						</div>
 
-
 						{#each data.posts.slice(12, 18) as post}
-							<PostComponent {post}/>
+							<PostComponent {post} />
 						{/each}
 					</div>
 				</div>
