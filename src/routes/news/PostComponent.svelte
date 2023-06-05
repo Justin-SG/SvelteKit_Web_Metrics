@@ -23,9 +23,10 @@
 			<p class="hidden md:block text-gray-600 leading-tight mb-1">
 				{post.description}
 			</p>
-			<a class="text-gray-500" href="#top"
-				><span class="inline-block h-3 border-l-2 border-red-600 mr-2" />{post.continent}</a
-			>
+			<a class="text-gray-500" href="#top">
+				<span class="inline-block h-3 border-l-2 border-red-600 mr-2" />
+				{post.continent}
+			</a>
 		</div>
 	</div>
 </div>

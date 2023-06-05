@@ -87,13 +87,12 @@
 								</svg>
 							</button>
 							<div bind:this={htmlSearch}
-								class="dropdown-menu absolute left-auto right-0 top-full z-50 text-left bg-white text-gray-700 border border-gray-100 mt-1 p-3 hidden"
-								style="min-width: 15rem;"
+								class="min-w-[15rem] dropdown-menu absolute left-auto right-0 top-full z-50 text-left bg-white text-gray-700 border border-gray-100 mt-1 p-3 hidden"
 							>
 								<div class="flex flex-wrap items-stretch w-full relative">
 									<input
 										type="text"
-										class="flex-shrink flex-grow flex-shrink max-w-full leading-5 w-px flex-1 relative py-2 px-5 text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0"
+										class="flex-grow flex-shrink max-w-full leading-5 w-px flex-1 relative py-2 px-5 text-gray-800 bg-white border border-gray-300 overflow-x-auto focus:outline-none focus:border-gray-400 focus:ring-0"
 										name="text"
 										placeholder="Search..."
 										aria-label="search"
@@ -203,8 +202,7 @@
 
 						<!-- dropdown menu -->
 						<ul
-							class="dropdown-menu block rounded rounded-t-none top-full z-50 ml-4 py-0.5 text-left bg-white mb-4"
-							style="min-width: 12rem"
+							class="min-w-[12rem] dropdown-menu block rounded rounded-t-none top-full z-50 ml-4 py-0.5 text-left bg-white mb-4"
 						>
 							<!--submenu-->
 							<li class="subdropdown relative">
@@ -217,8 +215,7 @@
 
 								<!--dropdown submenu-->
 								<ul
-									class="dropdown-menu block rounded rounded-t-none top-full z-50 ml-4 py-0.5 text-left bg-white"
-									style="min-width: 12rem"
+									class="min-w-[12rem] dropdown-menu block rounded rounded-t-none top-full z-50 ml-4 py-0.5 text-left bg-white"
 								>
 									<li>
 										<a
