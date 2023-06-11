@@ -1,11 +1,3 @@
-<!-- <script>
-	import Modal from '$lib/components/forms/modal.svelte';
-	/**
-	 * @type {{ show: () => any; }}
-	 */
-	let disposableIncomeModal;
-</script> -->
-
 <div class="w-full">
 	<div class="mb-2 flex justify-between">
 		<span class="text-4xl font-medium text-green-400">1.200</span>
@@ -28,38 +20,8 @@
 				/></svg
 			>
 		</button>
-		<!-- <Modal bind:modal={disposableIncomeModal}>
-			<div class="flex items-start justify-between rounded-t border-b p-4">
-				<h3 class="text-xl font-semibold text-gray-900">Disposable income</h3>
-			</div>
-			<div class="space-y-6 p-6">
-				<div class="mb-0.5 flex justify-between">
-					<span class="text-xl text-gray-900 dark:text-white">Fixed income</span>
-					<span class="text-xl font-medium text-green-400">1500,-</span>
-				</div>
-				<div class="mb-0.5 flex justify-between">
-					<span class="text-xl text-gray-900 dark:text-white">Addtional income</span>
-					<span class="text-xl font-medium text-green-400">200,-</span>
-				</div>
-				<div class="mb-0.5 flex justify-between">
-					<span class="text-xl text-gray-900 dark:text-white">Fixed expenses</span>
-					<span class="text-xl font-medium text-red-400 dark:text-white">300,-</span>
-				</div>
-				<div class="mb-0.5 flex justify-between">
-					<span class="text-xl text-gray-900 dark:text-white">Savings</span>
-					<span class="text-xl font-medium text-red-400 dark:text-white">150,-</span>
-				</div>
-
-				<hr class="my-2 h-px border-0 bg-gray-200 dark:bg-gray-700" />
-
-				<div class="mb-1 flex justify-between">
-					<span class="text-xl font-semibold text-gray-900">Total</span>
-					<span class="text-xl font-semibold text-green-400">1250,-</span>
-				</div>
-			</div>
-		</Modal> -->
 	</div>
 	<div class="h-6 w-full rounded-full bg-red-400 dark:bg-gray-400">
-		<div class="h-6 rounded-full bg-green-400 dark:bg-green-400" style="width: 80%" />
+		<div class="h-6 w-4/5 rounded-full bg-green-400 dark:bg-green-400" />
 	</div>
 </div>
