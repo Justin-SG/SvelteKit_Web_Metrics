@@ -105,7 +105,7 @@
 								<a href="#top">
 									<img
 										class="max-w-full w-full mx-auto h-auto"
-										src="./images/dummy/img15.jpg"
+										src="/images/dummy/img15.jpg"
 										alt="description"
 									/>
 								</a>
@@ -174,7 +174,7 @@
 						<div class="w-full text-center">
 							<a class="uppercase" href="#top">Advertisement</a>
 							<a href="#top">
-								<img class="mx-auto" src="./images/ads/250.jpg" alt="advertisement area" />
+								<img class="mx-auto" src="/images/ads/250.jpg" alt="advertisement area" />
 							</a>
 						</div>
 					</div>
