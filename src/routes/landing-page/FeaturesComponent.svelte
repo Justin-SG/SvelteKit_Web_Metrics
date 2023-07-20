@@ -67,7 +67,7 @@
 			</div>
 			<img
 				class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-				src="./images/feature-1.png"
+				src="/images/feature-1.png"
 				alt="dashboard feature"
 			/>
 		</div>
@@ -170,7 +170,7 @@
 			</div>
 			<img
 				class="hidden w-full mb-4 rounded-lg lg:mb-0 lg:flex"
-				src="./images/feature-2.png"
+				src="/images/feature-2.png"
 				alt="other feature"
 			/>
 		</div>
