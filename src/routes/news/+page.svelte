@@ -15,7 +15,7 @@
 			<div class="mx-auto table text-center text-sm">
 				<a class="uppercase" href="#top">Advertisement</a>
 				<a href="#top">
-					<img src="./images/ads/ads_728.jpg" alt="advertisement area" />
+					<img src="/images/ads/ads_728.jpg" alt="advertisement area" />
 				</a>
 			</div>
 		</div>
